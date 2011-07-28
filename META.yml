@@ -1,0 +1,23 @@
+---
+abstract: 'add one-time To box to Update page'
+author:
+  - 'Shawn M Moore C<< <sartak@bestpractical.com> >>'
+build_requires:
+  ExtUtils::MakeMaker: 6.42
+configure_requires:
+  ExtUtils::MakeMaker: 6.42
+distribution_type: module
+generated_by: 'Module::Install version 1.01'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: RT-Extension-OneTimeTo
+no_index:
+  directory:
+    - html
+    - inc
+    - t
+resources:
+  license: http://dev.perl.org/licenses/
+version: 0.02

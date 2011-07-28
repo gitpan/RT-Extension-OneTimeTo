@@ -1,0 +1,41 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.68.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 22ad2aeb22d0f44ca3fc395c0130ce39e7155bcd MANIFEST
+SHA1 097ad47337a4dc6b31079a2cd580be8ecbfbf4a7 META.yml
+SHA1 7612539782633530893bfa973bac02b932574550 Makefile.PL
+SHA1 719bb9d3a19d97493d701b27d3ea294d33a8f5b6 html/Callbacks/OneTimeTo/Ticket/Elements/ShowTransactionAttachments/MassageDisplayHeaders
+SHA1 987118f4df268cb27fce11692b9488a91a97d080 html/Callbacks/OneTimeTo/Ticket/Elements/UpdateCc/BeforeCc
+SHA1 00b40b3d63b26437ddb5771c5c12c24a424dbded html/NoAuth/js/onetimeto.js
+SHA1 7b4ae50ebac72d20761171c4c2b50c206344ea40 inc/Module/Install.pm
+SHA1 d9fe55a427fe2fd75b5029afeeaa61b592e07f79 inc/Module/Install/Base.pm
+SHA1 62d3922826d9f89f20c185e7031ac8f028504745 inc/Module/Install/Can.pm
+SHA1 dc809f64fb70a26b069a36f8d3d353d520dbb7e1 inc/Module/Install/Fetch.pm
+SHA1 73ab91490a628452cc140db72ef9d13a1326d211 inc/Module/Install/Makefile.pm
+SHA1 8ce3f2b414e4617e6233dd4ba10830f8c5d672ec inc/Module/Install/Metadata.pm
+SHA1 086821cf681da29d7a7e94e8a6fe6cce7e14f00f inc/Module/Install/RTx.pm
+SHA1 3b0acd2eeac93a0afe48120f5648f0db362e5bbf inc/Module/Install/Win32.pm
+SHA1 f08924f051e623f8e09fa6a121993c4a9cf7d9eb inc/Module/Install/WriteAll.pm
+SHA1 d0103cb5e18e0417bc8efff19819139d67f2b3e7 lib/RT/Extension/OneTimeTo.pm
+SHA1 e6e63dfeac54a63a647a71e9ff809fdba4aa4421 t/basic.t
+SHA1 0306d37886fe00461b25e9500554d95be0826006 t/empty-update.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+
+iD8DBQFOMb1IHdv9ZfNcOAcRAiMfAJ4wwg/8FzqgoeLHQ+WW5jrZhs0j8QCgqvuK
+4w6qYLuJnEybHHpZRZfQHXE=
+=ANVn
+-----END PGP SIGNATURE-----
