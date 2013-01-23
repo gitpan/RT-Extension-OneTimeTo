@@ -1,14 +1,15 @@
 ---
-abstract: 'add one-time To box to Update page'
+abstract: 'Adds a One-time To: box next to the One-time Cc/Bcc boxes'
 author:
-  - 'Shawn M Moore C<< <sartak@bestpractical.com> >>'
+  - 'Shawn M Moore, Alex Vandiver, and Thomas Sibley'
 build_requires:
-  ExtUtils::MakeMaker: 6.42
+  ExtUtils::MakeMaker: 6.36
 configure_requires:
-  ExtUtils::MakeMaker: 6.42
+  ExtUtils::MakeMaker: 6.36
 distribution_type: module
-generated_by: 'Module::Install version 1.01'
-license: perl
+dynamic_config: 1
+generated_by: 'Module::Install version 1.06'
+license: gpl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: 1.4
@@ -19,5 +20,5 @@ no_index:
     - inc
     - t
 resources:
-  license: http://dev.perl.org/licenses/
-version: 0.02
+  license: http://opensource.org/licenses/gpl-license.php
+version: 0.03
